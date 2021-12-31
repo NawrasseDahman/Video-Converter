@@ -4,8 +4,8 @@ from moviepy.editor import *
 # loading video
 clip = VideoFileClip("myvid.mp4")
 
-# getting only 3 first seconds from video
-clip = clip.subclip(0, 3)
+# getting only 60 first seconds from video
+clip = clip.subclip(0, 60)
 
 # saving video clip as gif
 clip.write_gif("mygif.gif")
